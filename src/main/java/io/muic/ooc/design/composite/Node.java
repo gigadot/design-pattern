@@ -34,5 +34,8 @@ public class Node {
     public boolean contains(Object o) {
         return nodes.contains(o);
     }
-    
+
+    public Node remove(int index) {
+        return nodes.remove(index);
+    }
 }

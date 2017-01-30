@@ -16,6 +16,9 @@ import java.util.Map;
  * @author gigadot
  */
 public class AnimalFactory {
+    public static void main(String[] args) {
+        Animal animal1 = AnimalFactory.createAnimal1("rabbit", "dog");
+    }
 
     public static Animal createAnimal1(String animalType, String name) {
         switch (animalType) {
