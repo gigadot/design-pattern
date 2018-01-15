@@ -14,4 +14,5 @@ import io.muic.ooc.design.abs.factory.simulator.Simulator;
 public interface SimulatorFactory {
 
     Simulator create();
+
 }
