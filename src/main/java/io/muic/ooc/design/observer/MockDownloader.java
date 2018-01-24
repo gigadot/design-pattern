@@ -21,7 +21,7 @@ public class MockDownloader extends Observable {
             } catch (InterruptedException ex) {
             }
             setChanged();
-            notifyObservers(i);
+            notifyObservers(i + 1);
         }
     }
 

@@ -21,7 +21,7 @@ public class InMemoryDatabase {
     private InMemoryDatabase() {
     }
 
-    public static InMemoryDatabase getInstance() {
+    public synchronized static InMemoryDatabase getInstance() {
         if (null == inMemoryDatabase) {
             inMemoryDatabase = new InMemoryDatabase();
         }
