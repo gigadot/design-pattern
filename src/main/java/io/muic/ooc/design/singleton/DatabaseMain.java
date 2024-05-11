@@ -12,12 +12,12 @@ package io.muic.ooc.design.singleton;
 public class DatabaseMain {
 
     public static void main(String[] args) {
-        //InMemoryDatabase indb0 =  new InMemoryDatabase();
-        InMemoryDatabase indb1 = InMemoryDatabase.getInstance();
-        InMemoryDatabase indb2 = InMemoryDatabase.getInstance();
-        InMemoryDatabase indb3 = InMemoryDatabase.getInstance();
-        System.out.println(indb1);
-        System.out.println(indb2);
-        System.out.println(indb3);
+//        InMemoryDatabase indb0 =  new InMemoryDatabase();
+//        InMemoryDatabase indb1 = InMemoryDatabase.getInstance();
+//        InMemoryDatabase indb2 = InMemoryDatabase.getInstance();
+//        InMemoryDatabase indb3 = InMemoryDatabase.getInstance();
+//        System.out.println(indb1);
+//        System.out.println(indb2);
+//        System.out.println(indb3);
     }
 }

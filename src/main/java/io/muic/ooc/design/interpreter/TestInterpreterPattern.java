@@ -63,6 +63,7 @@ public class TestInterpreterPattern {
 
     public static void main(String[] args) {
         String tokenString = "7 3 - 2 1 + *";
+        // (7 - 3) * (2 + 1)
         evalNoInterpreter(tokenString);
         eval(tokenString);
 //        implementation above is too simple so it cannot evaluate the following more complex expression        

@@ -13,7 +13,8 @@ public class StaffProxy extends Staff {
 
     @Override
     public String getNickname() {
-        System.out.println("Hello " + staff.getNickname());
+        // fetch anme from database
+        // return  the name form database
         return staff.getNickname();
     }
 

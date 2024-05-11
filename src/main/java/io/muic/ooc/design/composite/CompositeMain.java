@@ -21,6 +21,12 @@ public class CompositeMain {
         
         Node n3 = new Node();
         n1.add(n3);
+
+        // n0
+        //  -- n1
+        //      --n3
+        //  -- n2
+
         
     }
 }
